@@ -1,0 +1,99 @@
+
+.addbook{
+    background: linear-gradient(to right, rgba(208, 8, 8, 0.5),rgba(195, 245, 33, 0.5));
+    background-size: cover;
+    height: 117vh;
+}
+
+.c1{
+    display: flex;
+    
+    align-items: center;
+    margin: 15px;
+    /* border: 3px solid black; */
+    border-radius: 10px;
+    padding: 0px;
+    height: 680px;
+    justify-content: center; 
+   
+   
+    
+    
+}
+
+.c3{
+    /* background-color:peru; */
+    /* border: 2px solid black; */
+    padding: 20px;
+    margin: 50px 50px 50px 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    
+    
+}
+
+
+.c2{
+    width: 550px;
+    height: 550px;
+    padding: 10px;
+    margin: 10px 20px 10px 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c3 input{
+    display: flex;
+    display: block;
+    padding: 18px;
+     margin: 20px; 
+    border:0px;
+    border-bottom: 3.5px solid  brown;
+    margin-left: 40px;
+    margin: 20px 20px 20px 150px;
+    /* background-color: darkkhaki;
+     */
+    
+    
+
+}
+
+.c3 button{
+    /* margin-left: 60px; */
+    padding: 5px;
+    border: none;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 5px 20px 20px 200px;
+    
+}
+
+.c3 button:active{
+    background-color: red;
+    color: black;
+}
+
+/* .hi{
+   margin: 5px 5px 15px 5px;
+    text-align: center;
+    color: rgb(95, 92, 92);
+} */
+
+.c3 input:focus{
+    outline: none;
+    background-color:coral;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.c2 h1{
+    font-size: 70px;
+    padding: 20px;
+    
+}

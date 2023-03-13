@@ -9,7 +9,7 @@ const ReadBook = () => {
     let[book,setbook] = useState([])
     useEffect(()=>{
         let fetchdata =async() =>{
-            let response = await fetch(`http://localhost:5000/books/${params.id}`)
+            let response = await fetch(`http://localhost:7000/books/${params.id}`)
             let data = await response.json()
             setbook(data)
         }

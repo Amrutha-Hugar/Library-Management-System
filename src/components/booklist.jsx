@@ -8,7 +8,7 @@ const BookList = () => {
     let[books, setbooks] = useState([])
     useEffect(()=>{
         let fetchdata= async()=>{
-        let response =await fetch("http://localhost:5000/books")
+        let response =await fetch("http://localhost:7000/books")
         
         let data=await response.json()
         setbooks(data)
@@ -17,7 +17,7 @@ const BookList = () => {
         
     })
     let remove=(id,title)=>{
-        fetch(`http://localhost:5000/books${id}`,{
+        fetch(`http://localhost:7000/books${id}`,{
             method:'DELETE'
         })
         alert(`${title} Has been deleted permanently`)

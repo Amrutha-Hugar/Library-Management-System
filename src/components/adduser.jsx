@@ -22,7 +22,7 @@ const Adduser = () => {
             contact: contact.current.value
 
         }
-        fetch("http://localhost:5000/Users", {
+        fetch("http://localhost:4000/Users", {
             method: 'POST',
             headers:{'Content-type':'application/json'},
             body: JSON.stringify(data)

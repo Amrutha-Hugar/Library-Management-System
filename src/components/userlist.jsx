@@ -9,7 +9,7 @@ const Userlist = () => {
     let [user,setuser]=useState([])
     useEffect(()=>{
         let fetchdata=async ()=>{
-            let response=await fetch("http://localhost:5000/Users")
+            let response=await fetch("http://localhost:7000/Users")
             let data=await response.json()
             setuser(data)
 
@@ -17,7 +17,7 @@ const Userlist = () => {
         fetchdata()
     })
     let remove=(id)=>{
-        fetch(`http://localhost:5000/Users/${id}`,{
+        fetch(`http://localhost:7000/Users/${id}`,{
             method:"DELETE"
 
         })

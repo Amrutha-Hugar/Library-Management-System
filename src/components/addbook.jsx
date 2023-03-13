@@ -20,7 +20,7 @@ const Addbook = () => {
 let handlesubmit =(d)=>{
     d.preventDefault()
     let data={title,pagecount,author,category,description,ImageUrl}
-      fetch("http://localhost:5000/books",{
+      fetch("http://localhost:7000/books",{
       method:'POST',
       headers:{'Content-type':'application/json'},
       body:JSON.stringify(data)
